@@ -1,0 +1,24 @@
+.custom-input {
+  height: 40px; /* Smaller height */
+  width: 500px;
+  padding: 0.25rem 0.5rem; /* Smaller padding */
+  font-size: 0.875rem; /* Smaller font size */
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  border: solid;
+  border-width: 1px;
+}
+@media (max-width: 600px) {
+  .custom-input {
+      height: 30px; /* Adjust height for mobile */
+      width: 100%; /* Make input full width on mobile */
+      padding: 0.25rem 0.5rem; /* Adjust padding for mobile */
+      font-size: 0.875rem; /* Adjust font size for mobile */
+  }
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+h2,.btn{
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}
